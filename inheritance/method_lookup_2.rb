@@ -1,0 +1,18 @@
+class Animal
+end
+
+class Cat < Animal
+end
+
+class Bird < Animal
+end
+
+cat1 = Cat.new
+cat1.color
+
+# The lookup path for classes and modules for color is:
+# Cat
+# Animal
+# Object
+# Kernel
+# BasicObject
